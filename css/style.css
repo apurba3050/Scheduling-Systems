@@ -1,0 +1,88 @@
+body {
+	font-family:   Verdana, Geneva, Tahoma, sans-serif;  
+	font-size: 100%;
+	width: 60%;          /* changed from 960 pixels */               
+	max-width: 1024px;                  
+	background-color:white;
+	margin: 10px auto;
+	padding: 16px 0;
+	border: 1px solid wheat;
+}
+
+/* the styles for the header */
+header {
+	width: 100%;                        
+	padding-bottom: 2em;
+	background-color: rgb(152, 151, 160);
+}
+
+header h3 {
+	font-size: 1.25em;                 
+	font-style: italic;
+	color: #2519c7;	
+	margin-left: 13%;           /* 125 / 960 */   
+}
+header img {
+	width: 9.6%;           /* 100 / 960 */             
+	max-width: 100px;                    
+	min-width: 40px;
+	float: left;
+	margin-left: 2.08%;             /* 20 / 960 */   
+}
+
+
+
+input[type=text] {
+	width: 450px;
+	max-width: 1024px; 
+	padding: 12px 0px;
+	margin: 8px 0;
+	box-sizing: border-box;
+  }
+
+#time_slot{
+	
+	width: 450px;
+	max-width: 1024px; 
+	padding: 5px 0px;
+	margin: 0px 0;
+}
+
+#slot{
+	
+	width: 450px;
+	max-width: 1024px; 
+	padding: 5px 0px;
+	margin: 0px 0;
+}
+
+h2{
+	font:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	color:#F00;
+	padding:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+#submit{
+	width:300px;
+	padding:5px;
+}
+
+/* the styles for the footer */
+footer {
+	clear: both;
+	width: 100%; 
+	height: 15px;   
+	background-color: bisque;   
+	border: 1px solid wheat;                      
+	
+	
+}
+footer p {
+	font-size: .98em;                        
+	text-align: right;
+	margin-right: 2.08%;  
+	background-color: bisque;                 
+}
